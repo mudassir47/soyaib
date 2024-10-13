@@ -4,7 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Scissors, Package, Clock, PenTool, Mail, MapPin, Phone, CheckCircle, Star } from "lucide-react"
+import { Scissors, Package, Clock, PenTool, Mail, MapPin, Phone, Star } from "lucide-react"
 
 export function LandingPageComponent() {
   return (
@@ -35,8 +35,8 @@ export function LandingPageComponent() {
           <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
               <h1 className="text-4xl md:text-6xl font-bold mb-4">THE WEAVER ARTS INDIA</h1>
-              <p className="text-xl md:text-2xl mb-8">"ELEGANCE IN EVERY STITCH"</p>
-              <p className="text-lg mb-4">Manufacturer of export garments "SINCE 1984"</p>
+              <p className="text-xl md:text-2xl mb-8">&quot;ELEGANCE IN EVERY STITCH&quot;</p>
+              <p className="text-lg mb-4">Manufacturer of export garments &quot;SINCE 1984&quot;</p>
               <p className="text-md mb-8">
                 Now in the world of high-end fashion, we have started our own journey as exporters of quality garments
               </p>
